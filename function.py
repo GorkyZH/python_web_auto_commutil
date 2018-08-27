@@ -18,7 +18,8 @@ def insert_img(driver, file_name):
 
     base = base_dir[:-9]
     print('base:', base)
-    file_path = base + "/report/image/" + file_name
+	# 保存截图文件目录
+	file_path = base + "/report/image/" + file_name
     print('file_path:', file_path)
     driver.get_screenshot_as_file(file_path)
 

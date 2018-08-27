@@ -7,8 +7,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-user_info_path = globalparam.CSV_USER_PATH		# 存储用户的信息
-by_login_loc_path = globalparam.CSV_LOGIN_BY_PATH
+user_info_path = globalparam.CSV_USER_PATH			# 存储用户账号密码
+by_login_loc_path = globalparam.CSV_LOGIN_BY_PATH	# 存储登录元素定位
 by_home_loc_path = globalparam.CSV_HOME_BY_PATH
 by_guest_loc_path = globalparam.CSV_GUEST_BY_PATH
 guest_search_keyword_path = globalparam.CSV_GUEST_SEARCH_KEYWORD_PATH
